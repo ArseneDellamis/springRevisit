@@ -7,14 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class FunRestController {
 
 //exposed "/" that turn "hello world"
-    @GetMapping("/helloWorld")
+    @GetMapping("/")
     public String sayHello(){
         return "Hello World!";
-    }
-
-//    getting new endpoint for "workout"
-    @GetMapping("/workout")
-    public String workout(){
-        return "Working out!";
     }
 }
